@@ -1,7 +1,7 @@
 # Insurance-Uptake-Classification
 
 ### Motivation
-We all know that "_Acquiring a new customer is 5x more costly than retaining the existing ones_". Then why not focus on doing more business with existing customers leveraging their trust and further strengthening it. Ultimately, reducing the marketing cost and building a loyal customer base.
+We all know that "_Acquiring a new customer is 5x more costly than retaining the existing ones_". Then why not focus on doing more business with existing customers, leveraging their trust and further strengthening it. Ultimately, reducing the marketing cost and building a loyal customer base.
 
 ### Overview
 The objective is to effectively predict interested customers in purchasing vehicle insurance from the already existing customer base of Health insurance, so that targeted marketing strategies could be implemented. The dataset has **1,00,000+** rows with features like age, gender, previous insurance, annual premium, etc.
