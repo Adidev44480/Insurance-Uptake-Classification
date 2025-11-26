@@ -10,7 +10,7 @@ During EDA, I found **class imbalance** where only a small percentage of custome
 
 To handle class imbalance, I used **SMOTE** / class weights and trained models like **Logistic Regression**, **Naive Bayes**, **Random Forest** and **XG-Boost**. While evaluation I focused on the recall of the positive class, which also happened to be the minority class, because maximizing detection of interested customers is more important than overall accuracy.
 
-The best performance was achieved with the Logistic Regression with a recall of 87% while attaining accuracy score of 79%. The model is significantly helpful in identifying potential buyers, reducing marketing cost and improving conversion rates.
+The best performance was achieved with the Logistic Regression with a recall of 87% and an accuracy score of 79%. The model is significantly helpful in identifying potential buyers, reducing marketing cost and improving conversion rates.
 
 ### Why is Recall so important here
-I have prioritized identifying customers who would actually purchase the insurance because missing a potential customers means lost sales and lost revenue, a loss. So what exactly is recall in this case? Recall measures how many of the potential customers have been correctly identified by the model. In other words, among all the customers who were interested in purchasing insurance, how many did the model identify correctly.
+I have prioritized _identifying customers who would actually purchase the insurance_ because missing a potential customers means lost sales and lost revenue, a loss. So what exactly is recall in this case? Recall measures how many of the potential customers have been correctly identified by the model. In other words, among all the customers who would actually be interested in purchasing insurance, how many did the model identify correctly.
